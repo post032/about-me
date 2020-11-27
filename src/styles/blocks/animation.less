@@ -1,0 +1,35 @@
+.animation {
+  &__block {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+  }
+  &__text {
+    font-size: 18px;
+    text-align: center;
+    color: @bg-darkgreen;
+  }
+}
+
+@media (min-width: 768px) {
+  .animation {
+    display: flex;
+    justify-content: space-between;
+
+    &__block {
+      width: 33%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .animation {
+    &__text {
+      font-size: 20px;
+      line-height: 29px;
+    }
+  }
+}

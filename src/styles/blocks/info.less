@@ -1,0 +1,28 @@
+.info {
+  background: @basic-color;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 10px;
+
+  &__time {
+    font-size: 16px;
+    line-height: 25px;
+    color: @bg-darkgreen;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1024px) {
+  .info {
+    &__text {
+      font-size: 16px;
+      line-height: 25px;
+    }
+
+    &__time {
+      font-size: 20px;
+      line-height: 29px;
+    }
+  }
+}
