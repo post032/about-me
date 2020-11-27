@@ -290,6 +290,13 @@ input[type="radio"].visually-hidden {
     line-height: 27px;
   }
 }
+.about-me {
+  box-sizing: border-box;
+  position: relative;
+}
+.about-me__info {
+  margin-top: 35px;
+}
 .tech {
   box-sizing: border-box;
   position: relative;
@@ -452,6 +459,12 @@ input[type="radio"].visually-hidden {
   font-size: 16px;
   line-height: 25px;
   color: #7981ea;
+  font-weight: bold;
+}
+.info__title {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
   font-weight: bold;
 }
 @media (min-width: 1024px) {
